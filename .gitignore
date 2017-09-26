@@ -1,0 +1,4 @@
+.git/
+*.DS_Store
+section_1/*
+!.gitkeep
