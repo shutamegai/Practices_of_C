@@ -2,3 +2,5 @@
 *.DS_Store
 section_1/*
 !.gitkeep
+section_2/*
+!.gitkeep
