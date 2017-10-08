@@ -14,16 +14,16 @@ void student_print(student data);
 
 int main(void)
 {
-	student data;
+	student data1;
 	
-	data.year = 3;
-	data.clas = 4;
-	data.number = 18;
-	strcpy(data.name,"MARIO");
-	data.stature = 168.2;
-	data.weight = 72.4;
+	data1.year = 2;
+	data1.clas = 4;
+	data1.number = 18;
+	strcpy(data1.name,"MARIO");
+	data1.stature = 168.2;
+	data1.weight = 72.4;
 	
-	student_print(data); /* 呼び出し */
+	student_print(data1); /* 呼び出し */
 	
 	return 0;
 }
